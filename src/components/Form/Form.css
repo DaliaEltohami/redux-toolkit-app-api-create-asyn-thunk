@@ -1,0 +1,33 @@
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+.form label {
+  display: inline-block;
+  width: 100px;
+}
+
+.form-group input {
+  padding: 10px;
+}
+
+.form-group.submit {
+  text-align: center;
+}
+
+.form-group input[type="submit"] {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  background-color: lightblue;
+  cursor: pointer;
+}

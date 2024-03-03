@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 40px;
+}

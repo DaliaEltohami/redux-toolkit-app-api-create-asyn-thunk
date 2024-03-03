@@ -1,0 +1,27 @@
+.sidebar {
+  width: 25%;
+  height: calc(100vh - 93px);
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.sidebar ul li {
+  margin: 5px;
+  display: flex;
+}
+
+.sidebar li a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
