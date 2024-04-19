@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 function App() {
   // const [name, setName] = useState("");
   // const [email, setEmail] = useState("");
+  console.log(process.env.REACT_APP_API_PRODUCTION);
   return (
     <div className="App">
       <Header />
