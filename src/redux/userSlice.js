@@ -3,6 +3,7 @@ import axios from "axios";
 
 export const addUserThunk = createAsyncThunk("users/addUser", async (user) => {
   const req = await axios.post(process.env.USERS_API, user);
+  console.log(req);
   return req.data;
 });
 

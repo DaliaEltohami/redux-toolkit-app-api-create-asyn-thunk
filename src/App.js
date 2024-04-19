@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className="main">
         <Sidebar />
-        <Form  />
+        <Form />
       </div>
     </div>
   );

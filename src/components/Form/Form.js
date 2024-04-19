@@ -13,6 +13,7 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("here");
     dispatch(addUserThunk({ name, email }));
     setEmail("");
     setName("");
