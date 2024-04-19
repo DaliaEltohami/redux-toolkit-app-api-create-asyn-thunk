@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/redux-toolkit-app-api-create-asyn-thunk/static/css/main.d83ab631.css",
-    "main.js": "/redux-toolkit-app-api-create-asyn-thunk/static/js/main.aaa5acc7.js",
+    "main.js": "/redux-toolkit-app-api-create-asyn-thunk/static/js/main.c884a33b.js",
     "index.html": "/redux-toolkit-app-api-create-asyn-thunk/index.html",
     "main.d83ab631.css.map": "/redux-toolkit-app-api-create-asyn-thunk/static/css/main.d83ab631.css.map",
-    "main.aaa5acc7.js.map": "/redux-toolkit-app-api-create-asyn-thunk/static/js/main.aaa5acc7.js.map"
+    "main.c884a33b.js.map": "/redux-toolkit-app-api-create-asyn-thunk/static/js/main.c884a33b.js.map"
   },
   "entrypoints": [
     "static/css/main.d83ab631.css",
-    "static/js/main.aaa5acc7.js"
+    "static/js/main.c884a33b.js"
   ]
 }
