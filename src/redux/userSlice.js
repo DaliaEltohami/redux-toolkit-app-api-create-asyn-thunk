@@ -2,7 +2,11 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const addUserThunk = createAsyncThunk("users/addUser", async (user) => {
-  const req = await axios.post("http://localhost:5000/api/users", user);
+  const req = await axios.post(
+    "https://redux-toolkit-app-server-34e7c32ea8dd.herokuapp.com/api/users" ||
+      "http://localhost:5000/api/users",
+    user
+  );
   return req.data;
 });
 
